@@ -1,0 +1,4 @@
+﻿l_english:
+  t_reinforcements: "Reinforcements: "
+  t_nearby: "[GuiScope.SetRoot( Character.MakeScope).AddScope('province', CombatWindow.GetCombat.GetProvince.MakeScope ).ScriptValue('reinforcements_nearby')|v0] nearby"
+  t_close: "[GuiScope.SetRoot( Character.MakeScope).AddScope('province', CombatWindow.GetCombat.GetProvince.MakeScope ).ScriptValue('reinforcements_close_by')|v0] close"
