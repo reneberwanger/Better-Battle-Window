@@ -1623,7 +1623,6 @@ window = {
 										
 										# MAA AND LEVIES
 										vbox = {
-
 											layoutpolicy_vertical = expanding
 											spacing = 10
 											# MAA LEFT
@@ -1708,7 +1707,6 @@ window = {
 											}
 
 											expand = {}
-
 											
 										}
 									}
@@ -1784,6 +1782,7 @@ window = {
 										
 										# RIGHT MAA
 										vbox = {
+											layoutpolicy_vertical = expanding
 											spacing = 10
 											# MAA
 											vbox = {
@@ -1822,6 +1821,8 @@ window = {
 													righttoleft = yes
 												}
 											}
+
+											expand = {}
 										
 										}
 									
@@ -4787,7 +4788,7 @@ types Big_Battle {
 						
 						default_format = "#high;bold"
 						align = top
-						using = Font_Size_Small
+						fontsize = 12
 
 						block "levy_name" {
 							raw_text = "[MenAtArmsType.GetName]"
